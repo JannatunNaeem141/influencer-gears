@@ -23,6 +23,61 @@ body {
 }
 
 
+/* Header section start */
+
+.header-section {
+    width: 100%;
+    padding-top: 80px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav .logo h1 {
+    color: #3A3A3A;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.nav .menus {
+    display: flex;
+    align-items: center
+}
+
+.nav .menus .list-items ul {
+    display: flex;
+}
+
+.nav .menus .list-items ul li {
+    list-style: none;
+}
+
+.nav .menus .list-items ul li a {
+    text-decoration: none;
+    margin-right: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #3A3A3A;
+}
+
+.menus .list-icons a {
+    text-decoration: none;
+    color: #3A3A3A;
+}
+
+.menus .list-icons a i {
+    font-size: 30px;
+    font-weight: 600;
+    margin-right: 30px;
+}
+
+
+/* Header section end */
+
+
 /* banner section start */
 
 .banner-section {
@@ -291,12 +346,15 @@ body {
 .footer-content .social-icons a {
     text-decoration: none;
     color: #fff;
-    font-size: 15px;
-    padding: 5px;
-    width: 32px;
-    height: 32px;
-    border: 1px solid #1d1a49;
-    border-radius: 100%;
-    background-color: #1d1a49;
+    border: 1px solid #2a283e;
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    background-color: #2a283e;
     margin-right: 18px;
+    padding: 7px 13px;
+}
+
+.footer-content .social-icons a i {
+    font-size: 14px;
 }
