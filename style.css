@@ -184,9 +184,10 @@ body {
     border: 1px solid #ffffff;
     border-radius: 10px;
     width: 329px;
-    height: 450px;
+    height: 470px;
     padding: 15px 0;
     box-shadow: 7px 8px 12px 14px #88888813;
+    cursor: pointer;
 }
 
 .collection-item .collection-image {
@@ -386,6 +387,9 @@ body {
         grid-template-columns: repeat(1, 1fr);
         justify-items: center;
     }
+    .nav .menus .list-items ul {
+        padding-left: 15px;
+    }
     .nav .menus .list-items ul li a {
         margin-right: 18px;
         font-size: 18px;
@@ -415,6 +419,9 @@ body {
     .banner-contents h1 {
         font-size: 28px;
         line-height: 40px;
+    }
+    .banner-contents p {
+        padding: 0 15px;
     }
     .banner-contents a {
         margin: 16px 0;
